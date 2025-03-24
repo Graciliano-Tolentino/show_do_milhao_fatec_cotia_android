@@ -1,0 +1,44 @@
+# Byte-compiled / cache / virtual envs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.so
+*.egg-info/
+env/
+venv/
+ENV/
+env.bak/
+*.venv/
+
+# IDEs e configurações locais
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de log ou temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Builds e distribuições
+dist/
+build/
+*.spec
+
+# Arquivos pessoais e sensíveis
+*.env
+.secret
+.env.*
+
+# Imagens grandes ou de uso local
+Logo-Fatec-1200x800-1.jpg

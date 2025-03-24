@@ -1,0 +1,8 @@
+
+# Requisitos para executar o Show do Milhão - Python Educacional
+# Atualmente, o projeto usa apenas a biblioteca padrão do Python (nenhuma dependência externa).
+# Se desejar usar Tkinter, Flask, etc., adicione aqui.
+
+# Exemplo futuro:
+# flask==2.3.3
+# tk

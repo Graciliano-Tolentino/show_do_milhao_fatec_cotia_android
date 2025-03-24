@@ -1,0 +1,799 @@
+[
+    {
+        "pergunta": "O que é o pensamento computacional?",
+        "opcoes": [
+            "Capacidade de decorar códigos de programação",
+            "Habilidade de resolver problemas de forma lógica e eficiente",
+            "Conhecimento avançado em hardware",
+            "Técnica para memorizar linguagens de programação"
+        ],
+        "resposta": "Habilidade de resolver problemas de forma lógica e eficiente",
+        "dica": "É a base para entender e resolver problemas computacionais."
+    },
+    {
+        "pergunta": "Qual é a função principal de um algoritmo?",
+        "opcoes": [
+            "Executar comandos gráficos",
+            "Organizar arquivos de um sistema",
+            "Resolver problemas por meio de uma sequência de passos",
+            "Realizar tarefas manuais"
+        ],
+        "resposta": "Resolver problemas por meio de uma sequência de passos",
+        "dica": "Ele define uma lógica de execução para atingir um objetivo."
+    },
+    {
+        "pergunta": "Qual estrutura de controle é usada para decisões em Python?",
+        "opcoes": [
+            "for",
+            "while",
+            "if",
+            "def"
+        ],
+        "resposta": "if",
+        "dica": "Ela permite a escolha entre caminhos."
+    },
+    {
+        "pergunta": "O que o comando 'for' faz em Python?",
+        "opcoes": [
+            "Cria funções",
+            "Executa repetições baseadas em intervalos ou sequências",
+            "Define variáveis globais",
+            "Interrompe um programa"
+        ],
+        "resposta": "Executa repetições baseadas em intervalos ou sequências",
+        "dica": "Muito usado para iterar listas, strings e ranges."
+    },
+    {
+        "pergunta": "O que é uma variável em programação?",
+        "opcoes": [
+            "Um tipo de erro",
+            "Um número aleatório",
+            "Um local de armazenamento de valores",
+            "Uma linguagem de máquina"
+        ],
+        "resposta": "Um local de armazenamento de valores",
+        "dica": "Serve para guardar dados durante a execução do programa."
+    },
+    {
+        "pergunta": "O que significa 'IDE' no contexto de programação?",
+        "opcoes": [
+            "Integrated Development Environment",
+            "Internal Debugging Error",
+            "Interactive Data Entry",
+            "Internet Development Engine"
+        ],
+        "resposta": "Integrated Development Environment",
+        "dica": "Ambiente que integra editor, compilador e debugger."
+    },
+    {
+        "pergunta": "Qual dessas estruturas é utilizada para armazenar elementos únicos em Python?",
+        "opcoes": [
+            "list",
+            "tuple",
+            "set",
+            "dictionary"
+        ],
+        "resposta": "set",
+        "dica": "Esta estrutura não permite elementos duplicados."
+    },
+    {
+        "pergunta": "Como realizar comentários de múltiplas linhas em Python?",
+        "opcoes": [
+            "// comentário",
+            "<!-- comentário -->",
+            "/* comentário */",
+            "''' comentário '''"
+        ],
+        "resposta": "''' comentário '''",
+        "dica": "Utiliza-se três aspas simples ou duplas no começo e no fim."
+    },
+    {
+        "pergunta": "Qual desses métodos ordena uma lista em Python de maneira crescente?",
+        "opcoes": [
+            "reverse()",
+            "sorted()",
+            "append()",
+            "copy()"
+        ],
+        "resposta": "sorted()",
+        "dica": "Retorna uma nova lista ordenada, mantendo a original intacta."
+    },
+    {
+        "pergunta": "O que é o operador '%' em Python?",
+        "opcoes": [
+            "Divisão inteira",
+            "Exponenciação",
+            "Operação módulo (resto)",
+            "Divisão flutuante"
+        ],
+        "resposta": "Operação módulo (resto)",
+        "dica": "Retorna o resto de uma divisão."
+    },
+    {
+        "pergunta": "Qual função converte uma string numérica em um número inteiro em Python?",
+        "opcoes": [
+            "int()",
+            "str()",
+            "float()",
+            "len()"
+        ],
+        "resposta": "int()",
+        "dica": "Transforma texto com dígitos em números inteiros."
+    },
+    {
+        "pergunta": "O que significa o termo 'syntax error'?",
+        "opcoes": [
+            "Erro de digitação ou erro na estrutura da linguagem",
+            "Erro lógico no código",
+            "Erro na conexão com a internet",
+            "Erro de segurança no código"
+        ],
+        "resposta": "Erro de digitação ou erro na estrutura da linguagem",
+        "dica": "Acontece ao violar regras de escrita do código."
+    },
+    {
+        "pergunta": "Em Python, como iniciar um loop infinito?",
+        "opcoes": [
+            "while False:",
+            "for i in range(10):",
+            "while True:",
+            "if True:"
+        ],
+        "resposta": "while True:",
+        "dica": "Um loop sem fim, até que seja interrompido."
+    },
+    {
+        "pergunta": "Qual das opções cria uma tupla vazia em Python?",
+        "opcoes": [
+            "{}",
+            "[]",
+            "()",
+            "tuple[]"
+        ],
+        "resposta": "()",
+        "dica": "Parênteses definem tuplas."
+    },
+    {
+        "pergunta": "O que faz o método 'append()' numa lista em Python?",
+        "opcoes": [
+            "Remove um item",
+            "Insere um item ao final",
+            "Ordena os itens",
+            "Limpa a lista inteira"
+        ],
+        "resposta": "Insere um item ao final",
+        "dica": "Adiciona elementos sempre no final da lista."
+    },
+    {
+        "pergunta": "Qual dessas opções melhor descreve o método 'split()' em Python?",
+        "opcoes": [
+            "Converte texto em maiúsculo",
+            "Divide uma string em uma lista",
+            "Remove espaços do início e fim",
+            "Une elementos de uma lista em uma string"
+        ],
+        "resposta": "Divide uma string em uma lista",
+        "dica": "Muito útil para separar palavras em uma frase."
+    },
+    {
+        "pergunta": "Em lógica booleana, qual resultado da operação 'True OR False'?",
+        "opcoes": [
+            "True",
+            "False",
+            "Nenhum",
+            "Erro"
+        ],
+        "resposta": "True",
+        "dica": "Basta uma condição verdadeira para ser True."
+    },
+    {
+        "pergunta": "Qual dos seguintes operadores verifica se dois valores são diferentes em Python?",
+        "opcoes": [
+            "=",
+            "!=",
+            "==",
+            "<>"
+        ],
+        "resposta": "!=",
+        "dica": "Simboliza desigualdade entre valores."
+    },
+    {
+        "pergunta": "Qual dessas bibliotecas é nativa em Python e usada para gerar números aleatórios?",
+        "opcoes": [
+            "random",
+            "math",
+            "datetime",
+            "json"
+        ],
+        "resposta": "random",
+        "dica": "Nome significa literalmente 'aleatório' em inglês."
+    },
+    {
+        "pergunta": "Qual função Python retorna o comprimento (tamanho) de uma lista?",
+        "opcoes": [
+            "size()",
+            "length()",
+            "len()",
+            "count()"
+        ],
+        "resposta": "len()",
+        "dica": "É uma abreviação da palavra length (comprimento)."
+    },
+    {
+        "pergunta": "Em Python, como verificar o tipo de uma variável?",
+        "opcoes": [
+            "check()",
+            "var_type()",
+            "type()",
+            "typeof()"
+        ],
+        "resposta": "type()",
+        "dica": "Retorna o tipo de dado armazenado numa variável."
+    },
+    {
+        "pergunta": "O que faz a instrução 'break' em loops Python?",
+        "opcoes": [
+            "Continua para próxima iteração",
+            "Interrompe o loop imediatamente",
+            "Ignora o bloco de código atual",
+            "Finaliza o programa"
+        ],
+        "resposta": "Interrompe o loop imediatamente",
+        "dica": "Termina imediatamente o loop em execução."
+    },
+    {
+        "pergunta": "Qual a sintaxe correta para importar toda uma biblioteca chamada 'math' em Python?",
+        "opcoes": [
+            "include math",
+            "import math",
+            "#include math",
+            "using math"
+        ],
+        "resposta": "import math",
+        "dica": "Utiliza-se o termo 'import'."
+    },
+    {
+        "pergunta": "Em programação orientada a objetos, o que é um método?",
+        "opcoes": [
+            "Uma variável global",
+            "Uma função dentro de uma classe",
+            "Um tipo de dado",
+            "Um erro de sintaxe"
+        ],
+        "resposta": "Uma função dentro de uma classe",
+        "dica": "São funções específicas associadas a um objeto ou classe."
+    },
+    {
+        "pergunta": "Qual método remove todos os itens de uma lista em Python?",
+        "opcoes": [
+            "remove_all()",
+            "clear()",
+            "delete()",
+            "pop()"
+        ],
+        "resposta": "clear()",
+        "dica": "Seu nome remete a 'limpar'."
+    },
+    {
+        "pergunta": "Para que serve o operador lógico 'and' em Python?",
+        "opcoes": ["Soma valores", "Multiplica valores", "Une condições", "Divide valores"],
+        "resposta": "Une condições",
+        "dica": "Utilizado para combinar duas ou mais condições."
+    },
+    {
+        "pergunta": "O que é indentação em Python?",
+        "opcoes": ["Uma variável", "Um tipo de dado", "Um espaço que define blocos de código", "Uma operação matemática"],
+        "resposta": "Um espaço que define blocos de código",
+        "dica": "É essencial para a estruturação correta do código."
+    },
+    {
+        "pergunta": "O que significa o comando 'len()' em Python?",
+        "opcoes": ["Adiciona elementos", "Calcula comprimento", "Divide elementos", "Remove itens"],
+        "resposta": "Calcula comprimento",
+        "dica": "Frequentemente usado para contar caracteres ou itens."
+    },
+    {
+        "pergunta": "Qual destes tipos de dados é mutável em Python?",
+        "opcoes": ["Tupla", "String", "Lista", "Inteiro"],
+        "resposta": "Lista",
+        "dica": "Permite alterações após ser criada."
+    },
+    {
+        "pergunta": "Como criar um comentário de uma linha em Python?",
+        "opcoes": ["/* comentário */", "// comentário", "# comentário", "<!-- comentário -->"],
+        "resposta": "# comentário",
+        "dica": "Usa-se o símbolo de sustenido."
+    },
+    {
+        "pergunta": "Qual palavra-chave em Python é usada para retornar um valor em uma função?",
+        "opcoes": ["break", "return", "yield", "continue"],
+        "resposta": "return",
+        "dica": "Encerra a função entregando um resultado."
+    },
+    {
+        "pergunta": "Qual desses é o tipo booleano em Python?",
+        "opcoes": ["1 e 0", "Yes e No", "True e False", "Right e Wrong"],
+        "resposta": "True e False",
+        "dica": "Usado em operações lógicas."
+    },
+    {
+        "pergunta": "Qual comando é utilizado para receber entrada do usuário em Python?",
+        "opcoes": ["scanf()", "read()", "input()", "get()"],
+        "resposta": "input()",
+        "dica": "Permite interação com quem usa o programa."
+    },
+    {
+        "pergunta": "O que faz o operador '%' em Python?",
+        "opcoes": ["Divide números", "Multiplica strings", "Calcula o resto da divisão", "Eleva ao quadrado"],
+        "resposta": "Calcula o resto da divisão",
+        "dica": "Muito útil em divisões inteiras."
+    },
+    {
+        "pergunta": "Qual método converte uma string em maiúsculas em Python?",
+        "opcoes": ["upper()", "capitalize()", "title()", "casefold()"],
+        "resposta": "upper()",
+        "dica": "Transforma todas as letras em caixa alta."
+    },
+    {
+        "pergunta": "O que faz o comando 'break' dentro de loops em Python?",
+        "opcoes": ["Continua para a próxima iteração", "Encerra o loop imediatamente", "Ignora erros", "Volta ao início do loop"],
+        "resposta": "Encerra o loop imediatamente",
+        "dica": "Interrompe a execução do laço."
+    },
+    {
+        "pergunta": "Qual método remove espaços extras no começo e fim de uma string?",
+        "opcoes": ["strip()", "clean()", "trim()", "remove()"],
+        "resposta": "strip()",
+        "dica": "Muito usado ao tratar entradas do usuário."
+    },
+    {
+        "pergunta": "Qual função é utilizada para gerar números aleatórios em Python?",
+        "opcoes": ["randomize()", "rand()", "random()", "shuffle()"],
+        "resposta": "random()",
+        "dica": "Está no módulo random."
+    },
+    {
+        "pergunta": "Como definir um valor padrão para um parâmetro de função?",
+        "opcoes": ["def func(a:=5):", "def func(a=5):", "def func(a->5):", "def func(a==5):"],
+        "resposta": "def func(a=5):",
+        "dica": "Utiliza-se o sinal '='."
+    },
+    {
+        "pergunta": "O que o comando 'pass' faz em Python?",
+        "opcoes": ["Interrompe um loop", "Ignora uma exceção", "Não realiza ação nenhuma", "Executa uma função"],
+        "resposta": "Não realiza ação nenhuma",
+        "dica": "Utilizado como placeholder."
+    },
+    {
+        "pergunta": "Qual estrutura permite tratar erros em Python?",
+        "opcoes": ["try/except", "do/catch", "error/catch", "catch/finally"],
+        "resposta": "try/except",
+        "dica": "Evita interrupções inesperadas."
+    },
+    {
+        "pergunta": "Como se chama a biblioteca padrão para cálculos matemáticos avançados em Python?",
+        "opcoes": ["math", "calc", "numeric", "mathlib"],
+        "resposta": "math",
+        "dica": "Oferece funções como raiz quadrada e trigonometria."
+    },
+    {
+        "pergunta": "Qual comando é utilizado para parar momentaneamente o código?",
+        "opcoes": ["pause()", "wait()", "sleep()", "halt()"],
+        "resposta": "sleep()",
+        "dica": "Está presente no módulo time."
+    },
+    {
+        "pergunta": "Como declarar uma lista vazia em Python?",
+        "opcoes": ["list[]", "{}", "[]", "list()"],
+        "resposta": "[]",
+        "dica": "Forma mais curta e popular."
+    },
+    {
+        "pergunta": "O que significa a expressão '!= ' em Python?",
+        "opcoes": ["Menor ou igual", "Maior ou igual", "Igualdade", "Diferente"],
+        "resposta": "Diferente",
+        "dica": "Usada para comparação de diferença."
+    },
+    {
+        "pergunta": "O que é uma função recursiva?",
+        "opcoes": ["Uma função sem retorno", "Uma função que chama outra função", "Uma função que chama a si mesma", "Uma função sem parâmetros"],
+        "resposta": "Uma função que chama a si mesma",
+        "dica": "Muito usada em algoritmos como o fatorial."
+    },
+    {
+        "pergunta": "Como criar uma tupla com um único elemento em Python?",
+        "opcoes": ["(5)", "(5,)", "[5]", "{5}"],
+        "resposta": "(5,)",
+        "dica": "Não esqueça da vírgula."
+    },
+    {
+        "pergunta": "O que o método 'append()' faz em uma lista?",
+        "opcoes": ["Remove itens", "Insere itens no início", "Adiciona itens ao final", "Ordena os itens"],
+        "resposta": "Adiciona itens ao final",
+        "dica": "É usado frequentemente para expandir listas."
+    },
+    {
+        "pergunta": "Como verificar o tipo de um objeto em Python?",
+        "opcoes": ["isinstance()", "typeof()", "checktype()", "vartype()"],
+        "resposta": "isinstance()",
+        "dica": "Utiliza-se para validar tipos de dados."
+    },
+    {
+        "pergunta": "Qual comando permite ordenar uma lista em ordem crescente?",
+        "opcoes": ["list.order()", "list.sort()", "list.sequence()", "list.ascending()"],
+        "resposta": "list.sort()",
+        "dica": "Altera a lista original."
+    },
+    {
+        "pergunta": "Qual método retorna o índice de um elemento numa lista?",
+        "opcoes": ["find()", "search()", "index()", "locate()"],
+        "resposta": "index()",
+        "dica": "Usado para localizar elementos."
+    },
+    {
+        "pergunta": "Como ler todo o conteúdo de um arquivo em Python?",
+        "opcoes": ["file.read()", "file.get()", "file.load()", "file.input()"],
+        "resposta": "file.read()",
+        "dica": "Método comum para leitura de arquivos."
+    },
+    {
+        "pergunta": "O que é uma expressão lambda em Python?",
+        "opcoes": ["Uma estrutura condicional", "Uma função anônima", "Um tipo de dado", "Um loop"],
+        "resposta": "Uma função anônima",
+        "dica": "Não precisa de nome para ser utilizada."
+    },
+    {
+        "pergunta": "Como verificar se um número é par em Python?",
+        "opcoes": ["num % 2 == 0", "num // 2 == 0", "num / 2 == 0", "num ** 2 == 0"],
+        "resposta": "num % 2 == 0",
+        "dica": "Usa o operador módulo."
+    },
+    {
+        "pergunta": "Qual função converte um valor para inteiro em Python?",
+        "opcoes": ["float()", "int()", "str()", "bool()"],
+        "resposta": "int()",
+        "dica": "Conversão para números inteiros."
+    },
+    {
+        "pergunta": "Qual método adiciona vários elementos em uma lista?",
+        "opcoes": ["add()", "append()", "extend()", "insert()"],
+        "resposta": "extend()",
+        "dica": "Adiciona múltiplos itens simultaneamente."
+    },
+    {
+        "pergunta": "O que faz a função 'range()' em Python?",
+        "opcoes": ["Retorna números aleatórios", "Cria listas diretamente", "Gera uma sequência numérica", "Ordena elementos"],
+        "resposta": "Gera uma sequência numérica",
+        "dica": "Muito usado em loops."    
+    },
+    {
+        "pergunta": "Qual palavra-chave é usada para criar módulos em Python?",
+        "opcoes": ["module", "export", "import", "define"],
+        "resposta": "import",
+        "dica": "Usada para importar funcionalidades externas."
+    },
+    {
+        "pergunta": "O que o operador '**' faz em Python?",
+        "opcoes": ["Multiplicação", "Exponenciação", "Divisão", "Resto da divisão"],
+        "resposta": "Exponenciação",
+        "dica": "Usado para calcular potências."
+    },
+    {
+        "pergunta": "O que são listas aninhadas em Python?",
+        "opcoes": ["Listas vazias", "Listas dentro de listas", "Listas ordenadas", "Listas imutáveis"],
+        "resposta": "Listas dentro de listas",
+        "dica": "Permitem criar matrizes."
+    },
+    {
+        "pergunta": "Como criar um dicionário vazio em Python?",
+        "opcoes": ["[]", "()", "{}", "<>"],
+        "resposta": "{}",
+        "dica": "Chaves são usadas para representar dicionários."
+    },
+    {
+        "pergunta": "Qual a saída da expressão: 3 * 'Python'?",
+        "opcoes": ["Python3", "3Python", "PythonPythonPython", "Erro"],
+        "resposta": "PythonPythonPython",
+        "dica": "Multiplicação de strings repete textos."
+    },
+    {
+        "pergunta": "Qual método verifica se uma string começa com determinado prefixo?",
+        "opcoes": ["startswith()", "endswith()", "contains()", "prefix()"],
+        "resposta": "startswith()",
+        "dica": "Verifica o início de uma string."
+    },
+    {
+        "pergunta": "Qual operador verifica igualdade em Python?",
+        "opcoes": ["==", "!=", "=", "<>"] ,
+        "resposta": "==",
+        "dica": "Dois sinais de igual são utilizados."
+    },
+    {
+        "pergunta": "Como inverter uma lista em Python?",
+        "opcoes": ["list.reverse()", "list.invert()", "list.flip()", "list.rotate()"],
+        "resposta": "list.reverse()",
+        "dica": "Modifica a lista original invertendo sua ordem."
+    },
+    {
+        "pergunta": "O que é slicing em Python?",
+        "opcoes": ["Um método para ordenar listas", "Uma técnica de acesso a sublistas ou substrings", "Um operador matemático", "Um tipo especial de dado"],
+        "resposta": "Uma técnica de acesso a sublistas ou substrings",
+        "dica": "Usa índices para extrair partes dos dados."
+    },
+    {
+        "pergunta": "O que retorna o comando 'type(5.0)' em Python?",
+        "opcoes": ["int", "float", "str", "bool"],
+        "resposta": "float",
+        "dica": "5.0 é um número decimal."
+    },
+    {
+        "pergunta": "Qual é a saída de 'bool('')' em Python?",
+        "opcoes": ["True", "False", "0", "1"],
+        "resposta": "False",
+        "dica": "String vazia é considerada falsa."
+    },
+    {
+        "pergunta": "Qual dessas opções define corretamente uma variável em Python?",
+        "opcoes": ["var := 10", "10 = var", "var = 10", "define var 10"],
+        "resposta": "var = 10",
+        "dica": "Usa o sinal de atribuição '='."
+    },
+    {
+        "pergunta": "O que é necessário para usar funções do módulo 'math' em Python?",
+        "opcoes": ["declare math", "import math", "include math", "using math"],
+        "resposta": "import math",
+        "dica": "Precisa importar primeiro o módulo."
+    },
+    {
+        "pergunta": "Qual método separa strings em uma lista usando delimitadores?",
+        "opcoes": ["split()", "join()", "cut()", "separate()"],
+        "resposta": "split()",
+        "dica": "Divide strings em substrings."
+    },
+    {
+        "pergunta": "O que faz 'continue' num loop?",
+        "opcoes": ["Interrompe o loop", "Ignora o restante do bloco e volta ao início", "Sai da função atual", "Continua a próxima função"],
+        "resposta": "Ignora o restante do bloco e volta ao início",
+        "dica": "Pula para a próxima iteração."
+ },
+  {
+    "pergunta": "Qual é o comando usado para instalar pacotes em Python?",
+    "opcoes": ["get", "install", "pip install", "package"],
+    "resposta": "pip install",
+    "dica": "Utilizado junto ao gerenciador padrão do Python."
+  },
+  {
+    "pergunta": "Como se chama um erro que ocorre durante a execução do programa?",
+    "opcoes": ["Syntax error", "Runtime error", "Compile error", "Logical error"],
+    "resposta": "Runtime error",
+    "dica": "Ocorre enquanto o programa está rodando."
+  },
+  {
+    "pergunta": "O que é usado em Python para definir uma função?",
+    "opcoes": ["function", "def", "func", "define"],
+    "resposta": "def",
+    "dica": "Palavra curta relacionada à definição."
+  },
+  {
+    "pergunta": "Qual estrutura Python garante que o código será executado mesmo após um erro?",
+    "opcoes": ["try-except", "if-else", "for-else", "while-else"],
+    "resposta": "try-except",
+    "dica": "Muito utilizada para tratar exceções."
+  },
+  {
+    "pergunta": "Qual palavra-chave em Python cria uma classe?",
+    "opcoes": ["class", "object", "new", "create"],
+    "resposta": "class",
+    "dica": "Em inglês é a mesma palavra para 'aula'."
+  },
+  {
+    "pergunta": "Qual método transforma uma lista em uma string com separadores específicos?",
+    "opcoes": ["combine()", "split()", "join()", "merge()"],
+    "resposta": "join()",
+    "dica": "Usado para unir elementos com um delimitador."
+  },
+  {
+    "pergunta": "O que a função 'input()' faz em Python?",
+    "opcoes": ["Mostra uma saída", "Recebe entrada do usuário", "Realiza cálculos", "Define variáveis"],
+    "resposta": "Recebe entrada do usuário",
+    "dica": "Frequentemente usada para interação direta com o usuário."
+  },
+  {
+    "pergunta": "Qual dessas opções representa um valor booleano em Python?",
+    "opcoes": ["true", "yes", "True", "on"],
+    "resposta": "True",
+    "dica": "Começa com letra maiúscula."
+  },
+  {
+    "pergunta": "Qual método adiciona múltiplos elementos ao final de uma lista?",
+    "opcoes": ["append()", "add()", "extend()", "insert()"],
+    "resposta": "extend()",
+    "dica": "É usado para expandir a lista com vários itens."
+  },
+  {
+    "pergunta": "Como criar um comentário multi-linhas em Python?",
+    "opcoes": ["//", "''' '''", "<!-- -->", "/* */"],
+    "resposta": "''' '''",
+    "dica": "Usa aspas triplas."
+  },
+  {
+    "pergunta": "O que significa 'elif' em Python?",
+    "opcoes": ["else if", "end if", "else loop", "every if"],
+    "resposta": "else if",
+    "dica": "É uma contração em inglês para outra condição."
+  },
+  {
+    "pergunta": "Qual tipo de dado armazena valores imutáveis em Python?",
+    "opcoes": ["Listas", "Tuplas", "Dicionários", "Arrays"],
+    "resposta": "Tuplas",
+    "dica": "Representadas por parênteses."
+  },
+  {
+    "pergunta": "Qual função arredonda um número em Python?",
+    "opcoes": ["round()", "ceil()", "floor()", "approx()"],
+    "resposta": "round()",
+    "dica": "Usada para arredondar números decimais."
+  },
+  {
+    "pergunta": "Qual símbolo representa a multiplicação em Python?",
+    "opcoes": ["x", "*", "%", "#"],
+    "resposta": "*",
+    "dica": "Símbolo matemático comum."
+  },
+  {
+    "pergunta": "Qual função obtém o maior valor de uma lista em Python?",
+    "opcoes": ["max()", "high()", "top()", "biggest()"],
+    "resposta": "max()",
+    "dica": "Contrário de min()."
+  },
+  {
+    "pergunta": "Como é chamada a sequência ordenada e mutável em Python?",
+    "opcoes": ["Lista", "Dicionário", "Tupla", "Set"],
+    "resposta": "Lista",
+    "dica": "É definida usando colchetes."
+  },
+  {
+    "pergunta": "Qual tipo de erro ocorre ao dividir por zero em Python?",
+    "opcoes": ["SyntaxError", "ValueError", "ZeroDivisionError", "TypeError"],
+    "resposta": "ZeroDivisionError",
+    "dica": "Erro matemático bastante conhecido."
+  },
+  {
+    "pergunta": "Qual palavra-chave cria um módulo em Python?",
+    "opcoes": ["module", "package", "import", "def"],
+    "resposta": "import",
+    "dica": "Usado para incluir funcionalidades externas."
+  },
+  {
+    "pergunta": "Qual estrutura permite repetir código até uma condição se tornar falsa?",
+    "opcoes": ["if", "while", "def", "class"],
+    "resposta": "while",
+    "dica": "Loop dependente de uma condição verdadeira."
+  },
+  {
+    "pergunta": "O que a expressão '!=' significa em Python?",
+    "opcoes": ["Menor que", "Maior que", "Diferente de", "Igual a"],
+    "resposta": "Diferente de",
+    "dica": "Expressa negação ou desigualdade."
+  },
+  {
+    "pergunta": "Qual operador em Python é usado para calcular o resto de uma divisão?",
+    "opcoes": ["%", "/", "*", "//"],
+    "resposta": "%",
+    "dica": "Muito útil para verificar se um número é par ou ímpar."
+  },
+  {
+    "pergunta": "Qual método converte uma string em letras minúsculas em Python?",
+    "opcoes": ["lower()", "min()", "lowercase()", "down()"],
+    "resposta": "lower()",
+    "dica": "É frequentemente usado em validação de dados."
+  },
+  {
+    "pergunta": "Em programação, o que significa IDE?",
+    "opcoes": ["Interactive Design Editor", "Integrated Development Environment", "Internal Data Exchange", "Internet Development Engine"],
+    "resposta": "Integrated Development Environment",
+    "dica": "É um ambiente usado para facilitar a escrita e edição de código."
+  },
+  {
+    "pergunta": "Como se declara um comentário em Python?",
+    "opcoes": ["/* comentário */", "// comentário", "# comentário", "<!-- comentário -->"],
+    "resposta": "# comentário",
+    "dica": "É um símbolo frequentemente associado ao jogo da velha."
+  },
+  {
+    "pergunta": "Qual comando em Python é usado para gerar uma sequência numérica?",
+    "opcoes": ["range()", "rand()", "sequence()", "list()"],
+    "resposta": "range()",
+    "dica": "É usado com frequência em loops."
+  },
+  {
+    "pergunta": "Como verificamos o tipo de uma variável em Python?",
+    "opcoes": ["type()", "typeof()", "check()", "varType()"],
+    "resposta": "type()",
+    "dica": "Pense na palavra 'tipo' em inglês."
+  },
+  {
+    "pergunta": "Em lógica de programação, o que é uma estrutura condicional?",
+    "opcoes": ["Repete comandos", "Armazena dados", "Toma decisões", "Define funções"],
+    "resposta": "Toma decisões",
+    "dica": "Permite o programa escolher diferentes caminhos."
+  },
+  {
+    "pergunta": "Qual método remove espaços extras no início e fim de uma string?",
+    "opcoes": ["clean()", "strip()", "trim()", "slice()"],
+    "resposta": "strip()",
+    "dica": "Em inglês, 'tirar' ou 'remover'."
+  },
+  {
+    "pergunta": "Qual palavra-chave em Python define um laço infinito?",
+    "opcoes": ["if True", "for", "while True", "loop"],
+    "resposta": "while True",
+    "dica": "Combinação que gera um loop infinito."
+  },
+  {
+    "pergunta": "Qual estrutura é usada para armazenar dados chave-valor em Python?",
+    "opcoes": ["Lista", "Tupla", "Dicionário", "Array"],
+    "resposta": "Dicionário",
+    "dica": "Pense num livro com definições."
+  },
+  {
+    "pergunta": "Qual função obtém o comprimento de uma lista?",
+    "opcoes": ["size()", "length()", "len()", "count()"],
+    "resposta": "len()",
+    "dica": "Reduzido da palavra inglesa 'length'."
+  },
+  {
+    "pergunta": "O que significa a sigla OOP em programação?",
+    "opcoes": ["Online Operating Process", "Object Oriented Programming", "Original Operation Procedure", "Open Output Protocol"],
+    "resposta": "Object Oriented Programming",
+    "dica": "Paradigma de programação com classes e objetos."
+  },
+  {
+    "pergunta": "Qual operador lógico representa a conjunção 'E' em Python?",
+    "opcoes": ["or", "not", "and", "&"],
+    "resposta": "and",
+    "dica": "É o equivalente em inglês à palavra 'E'."
+  },
+  {
+    "pergunta": "Qual comando encerra imediatamente a execução de um loop?",
+    "opcoes": ["exit", "end", "break", "stop"],
+    "resposta": "break",
+    "dica": "Em inglês significa 'quebrar'."
+  },
+  {
+    "pergunta": "Qual a função do comando continue em loops Python?",
+    "opcoes": ["Finaliza o loop", "Ignora uma iteração", "Reinicia o programa", "Cria uma nova variável"],
+    "resposta": "Ignora uma iteração",
+    "dica": "Pula para a próxima rodada do loop."
+  },
+  {
+    "pergunta": "O que é um 'bug' em programação?",
+    "opcoes": ["Recurso adicional", "Erro ou falha no código", "Tipo de variável", "Função especial"],
+    "resposta": "Erro ou falha no código",
+    "dica": "Termo popularizado quando insetos causavam falhas em computadores antigos."
+  },
+  {
+    "pergunta": "Qual das opções define corretamente uma lista em Python?",
+    "opcoes": ["(1, 2, 3)", "{1, 2, 3}", "[1, 2, 3]", "<1, 2, 3>"],
+    "resposta": "[1, 2, 3]",
+    "dica": "Usa colchetes."
+  },
+  {
+    "pergunta": "Como se chama uma função que chama a si mesma?",
+    "opcoes": ["Iterativa", "Recursiva", "Anônima", "Lambda"],
+    "resposta": "Recursiva",
+    "dica": "Pense em auto-referência."
+  },
+  {
+    "pergunta": "Qual método adiciona um elemento ao fim de uma lista em Python?",
+    "opcoes": ["append()", "add()", "insert()", "push()"],
+    "resposta": "append()",
+    "dica": "Significa 'adicionar ao final' em inglês."
+  },
+  {
+    "pergunta": "O que significa a expressão '=='' em Python?",
+    "opcoes": ["Atribuição", "Comparação de igualdade", "Multiplicação", "Concatenação"],
+    "resposta": "Comparação de igualdade",
+    "dica": "Compara dois valores para verificar se são iguais."
+  }
+]
